@@ -57,10 +57,10 @@ namespace ConsoleApplication1
 
 
              Clsmath objMath = new Clsmath();
-             int[] input= new int[2];
-              input[0] = Convert.ToInt32(Console.ReadLine());
-              input[1] = Convert.ToInt32(Console.ReadLine());
-              int result = objMath.getPointer(1).Invoke(input[0], input[1]);
+             int[] main = new int[3];
+              main[0] = Convert.ToInt32(Console.ReadLine());
+              main[1] = Convert.ToInt32(Console.ReadLine());
+              int result = objMath.getPointer(1).Invoke(main[0], main[1]);
              Console.WriteLine(result);
              Console.ReadLine();
          
